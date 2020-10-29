@@ -1,2 +1,0 @@
-Hello everyone
-hi there 
