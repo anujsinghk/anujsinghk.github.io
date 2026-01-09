@@ -1,1 +1,20 @@
-theme: jekyll-theme-minimal
+title: Your Name
+description: Developer Portfolio — Projects, Articles, and Research
+url: https://anujsinghk.github.io
+baseurl: ""
+
+author:
+  name: Your Name
+  email: singh.anuj256@email.com
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
+  articles:
+    output: true
+    permalink: /articles/:name/
+
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
