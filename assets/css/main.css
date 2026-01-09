@@ -222,3 +222,64 @@ footer a:hover {
   max-height: 18px;
   display: block;
 }
+
+/* ---------- Skills Section ---------- */
+.skills {
+  margin-top: 3rem;
+}
+
+.skill {
+  display: grid;
+  grid-template-columns: 40px 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.8rem 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.skill img {
+  width: 28px;
+  height: 28px;
+}
+
+.skill-info strong {
+  display: block;
+  font-size: 0.95rem;
+}
+
+.version {
+  color: var(--muted);
+  font-weight: 400;
+  font-size: 0.85rem;
+}
+
+/* Progress bar */
+.progress {
+  background: var(--surface);
+  border-radius: 6px;
+  overflow: hidden;
+  height: 8px;
+  margin-top: 6px;
+}
+
+.progress span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+
+/* Certificate link */
+.cert {
+  font-size: 0.85rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.cert:hover {
+  text-decoration: underline;
+}
+
+.cert.muted {
+  color: var(--muted);
+  cursor: default;
+}
