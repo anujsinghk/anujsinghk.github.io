@@ -1,37 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <title>Your Name | Developer Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <link rel="stylesheet" href="/assets/css/main.css" />
-  <script defer src="/assets/js/main.js"></script>
-</head>
-<body>
-  <div id="header"></div>
+---
+layout: default
+---
 
-  <main class="container">
-    <section class="hero">
-      <img src="/assets/images/profile.jpg" alt="Profile" class="avatar" />
-      <h1>Your Name</h1>
-      <p class="subtitle">Software Engineer · Researcher · Builder</p>
+<section class="hero">
+  <img src="/assets/images/profile.jpg" class="avatar" alt="Profile">
+  <h1>{{ site.title }}</h1>
+  <p class="subtitle">Software Engineer · Researcher · Builder</p>
 
-      <div class="cta">
-        <a href="/_projects/" class="btn">View Projects</a>
-        <a href="/resume/resume.pdf" class="btn secondary" download>Download Resume</a>
-      </div>
-    </section>
+  <div class="cta">
+    <a href="/projects/" class="btn">Projects</a>
+    <a href="/resume/resume.pdf" class="btn secondary" download>Resume</a>
+  </div>
+</section>
 
-    <section>
-      <h2>Highlights</h2>
-      <ul>
-        <li>🚀 Built scalable web systems</li>
-        <li>🧠 Research-driven engineering</li>
-        <li>📚 Technical writing & demos</li>
-      </ul>
-    </section>
-  </main>
-
-  <div id="footer"></div>
-</body>
-</html>
+<section>
+  {{ content }}
+</section>

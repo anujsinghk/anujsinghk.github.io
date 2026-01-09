@@ -1,16 +1,10 @@
 ---
 layout: home
 title: Home
-description: Software Engineer portfolio showcasing projects and research
+description: Developer portfolio of Your Name
 ---
 
-# Your Name
-
-**Software Engineer · Researcher · Builder**
-
-[View Projects](/_projects/) · [Download Resume](/resume/resume.pdf)
-
 ## Highlights
-- 🚀 Production-grade systems
-- 🧠 Research-oriented engineering
+- 🚀 Production-grade engineering
+- 🧠 Research-backed solutions
 - ✍️ Technical writing & demos

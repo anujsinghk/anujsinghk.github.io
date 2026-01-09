@@ -1,17 +1,15 @@
 ---
 layout: project
-title: Distributed Data Pipeline
-description: High-throughput event processing system
-tech: Python, Kafka, PostgreSQL
+title: Scalable Event Pipeline
+description: High-throughput data ingestion system
+tech: Python · Kafka · PostgreSQL
 ---
 
-## Overview
-Designed a scalable data ingestion pipeline handling millions of events/day.
+## Problem
+Handling millions of events per day reliably.
 
-## Tech Stack
-- Python
-- Kafka
-- PostgreSQL
+## Solution
+Stream-based ingestion with backpressure and monitoring.
 
-## Demo
-[Live Demo](https://example.com)
+## Outcome
+99.99% uptime, horizontal scalability.

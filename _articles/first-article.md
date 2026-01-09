@@ -1,11 +1,10 @@
 ---
 layout: article
-title: How I Design Scalable APIs
-description: Practical API design patterns
+title: Designing Maintainable APIs
+description: Practical API design principles
 ---
 
-## Problem
-Most APIs fail due to poor contracts.
-
-## Solution
-Clear boundaries, strict schemas, versioning.
+## Key Ideas
+- Explicit contracts
+- Versioned endpoints
+- Observability-first design
