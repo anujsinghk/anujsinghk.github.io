@@ -147,3 +147,28 @@ footer a {
 footer a:hover {
   color: var(--accent);
 }
+
+/* ---------- Social Icons ---------- */
+.social-icons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0.8rem;
+}
+
+.social-icons a {
+  display: inline-flex;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.social-icons a:hover {
+  transform: scale(1.12);
+  opacity: 0.85;
+}
+
+.social-icons img {
+  width: 28px;
+  height: 28px;
+  display: block;
+}
