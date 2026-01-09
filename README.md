@@ -1,6 +1,6 @@
 # Your Name — Developer Portfolio
 
-Live: https://yourname.github.io
+Live: https://anujsinghk.github.io
 
 ## Sections
 - Projects (case studies)

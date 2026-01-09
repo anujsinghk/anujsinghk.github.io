@@ -1,11 +1,11 @@
 title: Your Name
-description: Developer Portfolio — Projects, Articles, and Research
+description: Developer Portfolio — Projects, Articles, and Technical Demonstrations
 url: https://anujsinghk.github.io
 baseurl: ""
 
 author:
   name: Your Name
-  email: singh.anuj256@email.com
+  email: you@email.com
 
 collections:
   projects:
@@ -16,5 +16,6 @@ collections:
     permalink: /articles/:name/
 
 markdown: kramdown
+
 plugins:
   - jekyll-sitemap
