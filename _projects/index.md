@@ -1,10 +1,13 @@
 ---
 layout: page
 title: Projects
-description: Selected software engineering projects
+description: Selected engineering projects
 ---
 
 {% for project in site.projects %}
-### [{{ project.title }}]({{ project.url }})
-{{ project.description }}
+<div class="card">
+  <h3><a href="{{ project.url }}">{{ project.title }}</a></h3>
+  <p class="meta">{{ project.tech }}</p>
+  <p>{{ project.description }}</p>
+</div>
 {% endfor %}

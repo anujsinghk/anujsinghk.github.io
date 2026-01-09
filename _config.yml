@@ -1,11 +1,11 @@
-title: Your Name
+title: Anuj Kumar Singh
 description: Developer Portfolio — Projects, Articles, and Technical Demonstrations
 url: https://anujsinghk.github.io
 baseurl: ""
 
 author:
-  name: Your Name
-  email: you@email.com
+  name: Anuj Kumar Singh
+  email: singh.anuj256@gmail.com
 
 collections:
   projects:

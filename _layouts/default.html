@@ -1,7 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  {% include seo.html %}
+
+  <!-- ✅ CSS GOES HERE -->
+  <link rel="stylesheet" href="/assets/css/main.css">
+</head>
+
 <body>
   {% include header.html %}
+
   <main class="container">
     {{ content }}
   </main>
+
   {% include footer.html %}
 </body>
+</html>

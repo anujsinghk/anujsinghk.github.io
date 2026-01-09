@@ -4,5 +4,5 @@ title: Contact
 description: Get in touch
 ---
 
-📧 Email: you@email.com  
-🔗 LinkedIn: https://linkedin.com/in/yourname
+📧 Email: singh.anuj256@gmail.com  
+🔗 LinkedIn: https://www.linkedin.com/in/anuj-singh-a5226337/
