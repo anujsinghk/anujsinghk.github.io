@@ -8,7 +8,7 @@ description: Software Engineer portfolio showcasing projects and research
 
 **Software Engineer · Researcher · Builder**
 
-[View Projects](/projects/) · [Download Resume](/resume/resume.pdf)
+[View Projects](/_projects/) · [Download Resume](/resume/resume.pdf)
 
 ## Highlights
 - 🚀 Production-grade systems
