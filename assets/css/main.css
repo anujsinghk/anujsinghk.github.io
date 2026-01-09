@@ -172,3 +172,7 @@ footer a:hover {
   height: 28px;
   display: block;
 }
+.social-icons img {
+  filter: invert(61%) sepia(82%) saturate(442%) hue-rotate(165deg);
+}
+
