@@ -1,10 +1,54 @@
 <footer>
   <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
   <p class="social">
-    <a href="https://linkedin.com/in/yourname">LinkedIn</a>
-    <a href="https://youtube.com/@yourname">YouTube</a>
+    <a href="https://www.linkedin.com/in/anuj-singh-a5226337/">LinkedIn</a>
+    <a href="https://www.youtube.com/@AnujSingh256">YouTube</a>
     <a href="https://instagram.com/yourname">Instagram</a>
     <a href="https://orcid.org/0000-0000-0000-0000">ORCID</a>
-    <a href="https://researchgate.net/profile/YourName">ResearchGate</a>
+    <a href="https://www.researchgate.net/profile/Anuj-Singh-36">ResearchGate</a>
   </p>
+</footer>
+<style>
+  .social-icons {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-icons a {
+    display: inline-block;
+    transition: transform 0.2s;
+  }
+  
+  .social-icons a:hover {
+    transform: scale(1.1);
+  }
+  
+  .social-icons img {
+    width: 32px;
+    height: 32px;
+    object-fit: contain;
+  }
+</style>
+
+<footer>
+  <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/anuj-singh-a5226337/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/linkedin.svg" alt="LinkedIn">
+    </a>
+    <a href="https://www.youtube.com/@AnujSingh256" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/youtube.svg" alt="YouTube">
+    </a>
+    <a href="https://instagram.com/yourname" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/instagram.svg" alt="Instagram">
+    </a>
+    <a href="https://orcid.org/0000-0000-0000-0000" target="_blank" rel="noopener noreferrer" aria-label="ORCID">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/orcid.svg" alt="ORCID">
+    </a>
+    <a href="https://www.researchgate.net/profile/Anuj-Singh-36" target="_blank" rel="noopener noreferrer" aria-label="ResearchGate">
+      <img src="https://cdn.jsdelivr.net/npm/simple-icons@v9/icons/researchgate.svg" alt="ResearchGate">
+    </a>
+  </div>
 </footer>
