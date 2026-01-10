@@ -1,0 +1,56 @@
+[
+  {
+    "id": "event-pipeline",
+    "title": "Scalable Event Pipeline",
+    "description": "High-throughput data ingestion system handling millions of events per day with 99.99% uptime.",
+    "tech": ["Python", "Kafka", "PostgreSQL"],
+    "link": "/projects/event-pipeline/",
+    "size": "large",
+    "image": "/assets/images/project-1.jpg"
+  },
+  {
+    "id": "ai-assistant",
+    "title": "AI-Powered Assistant",
+    "description": "Conversational AI system with context awareness and multi-turn memory.",
+    "tech": ["Python", "LLM", "FastAPI"],
+    "link": "/projects/ai-assistant/",
+    "size": "medium",
+    "image": "/assets/images/project-2.jpg"
+  },
+  {
+    "id": "real-time-dashboard",
+    "title": "Real-time Dashboard",
+    "description": "Interactive data visualization with WebSocket updates and 60fps animations.",
+    "tech": ["React", "Node.js", "D3.js"],
+    "link": "/projects/dashboard/",
+    "size": "medium",
+    "image": "/assets/images/project-3.jpg"
+  },
+  {
+    "id": "microservices-platform",
+    "title": "Microservices Platform",
+    "description": "Distributed system architecture with service mesh, observability, and auto-scaling.",
+    "tech": ["Go", "Kubernetes", "gRPC"],
+    "link": "/projects/microservices/",
+    "size": "large",
+    "image": "/assets/images/project-4.jpg"
+  },
+  {
+    "id": "mobile-app",
+    "title": "Mobile App",
+    "description": "Cross-platform mobile application with offline-first architecture.",
+    "tech": ["React Native", "Firebase", "TypeScript"],
+    "link": "/projects/mobile/",
+    "size": "small",
+    "image": "/assets/images/project-5.jpg"
+  },
+  {
+    "id": "security-framework",
+    "title": "Security Framework",
+    "description": "Zero-trust security system with encryption and threat detection.",
+    "tech": ["Rust", "Cryptography", "ML"],
+    "link": "/projects/security/",
+    "size": "small",
+    "image": "/assets/images/project-6.jpg"
+  }
+]

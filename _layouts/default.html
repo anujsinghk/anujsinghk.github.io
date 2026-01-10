@@ -7,8 +7,11 @@
 
   {% include seo.html %}
 
-  <!-- ✅ CSS GOES HERE -->
+  <!-- CSS -->
   <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/main.css">
+  
+  <!-- AOS (Animate On Scroll) -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
 
 </head>
 
@@ -20,5 +23,30 @@
   </main>
 
   {% include footer.html %}
+
+  <!-- Theme Manager -->
+  <script src="{{ site.baseurl }}/assets/js/theme.js"></script>
+  
+  <!-- Dynamic Projects Renderer -->
+  <script src="{{ site.baseurl }}/assets/js/projects.js"></script>
+  
+  <!-- GSAP for Kinetic Typography -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+  <script src="{{ site.baseurl }}/assets/js/kinetic.js"></script>
+  
+  <!-- Vanilla Tilt for 3D Card Effects -->
+  <script src="https://cdn.jsdelivr.net/npm/vanilla-tilt@1.8.0/dist/vanilla-tilt.min.js"></script>
+  
+  <!-- AOS (Animate On Scroll) -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800,
+      easing: 'ease-in-out-quad',
+      once: false,
+      offset: 100
+    });
+  </script>
 </body>
 </html>
