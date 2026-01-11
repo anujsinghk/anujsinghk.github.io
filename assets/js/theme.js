@@ -1,6 +1,7 @@
 /**
  * Dark Mode Toggle & Theme Manager
  * Detects system preference, time of day, and provides manual toggle
+ * Uses data-theme attribute on html element
  */
 
 class ThemeManager {
@@ -36,7 +37,12 @@ class ThemeManager {
   }
 
   setTheme(theme) {
+    // Set data-theme attribute on html element for CSS selectors
     document.documentElement.setAttribute('data-theme', theme);
+    
+    // Also set on body for compatibility
+    document.body.setAttribute('data-theme', theme);
+    
     localStorage.setItem(this.STORAGE_KEY, theme);
     this.updateToggleIcon(theme);
   }
